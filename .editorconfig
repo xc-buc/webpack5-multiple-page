@@ -1,0 +1,18 @@
+root = true
+
+[*]
+# 字符编码：utf-8
+charset = utf-8
+# 换行符：lf
+end_of_line = lf
+# 缩进风格：空格
+indent_style = space
+# 缩进大小：2
+indent_size = 2
+# 文件最后插入一个空行
+insert_final_newline = true
+# 删除行尾空格：true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
